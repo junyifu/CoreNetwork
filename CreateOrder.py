@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 __author__ = 'FuJunYi'
-__version__ = "v1.0.0.0"
+__version__ = "v1.0.0.1"
 
 import os
 import time
