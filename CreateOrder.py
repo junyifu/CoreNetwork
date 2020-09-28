@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 __author__ = 'FuJunYi'
-__version__ = "v1.0.%s.%s"
+__version__ = "v1.0.0.0"
 
 import os
 import time
@@ -12,6 +12,7 @@ class SoapOrder(object):
     def __init__(self, xmlFile, soapPath):
         self.xmlFile = xmlFile
         self.soapPath = soapPath
+		pass
 
     def createSoapOrder(self, MSISDN=None):
         namespaceMmt = "http://www.chinaunicom.com/IMS/VoLTEAS/"
